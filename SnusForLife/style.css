@@ -1,31 +1,59 @@
-body{   
-    background-image: url("Bilder/Bakgrund.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+header{
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img {
-    
+body{
+    background-color: #24252A;
+    margin: 20px 20%;
+    font-family: sans-serif;
 }
 
 .box{
     float: left;
-    width: 300px;
-    height: 300px;
-    border: 1px solid;
-    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
     text-align: center;
-    background: white;
+    padding: 3%;
 }
 
 h1{
-    color: rgb(6, 0, 43);
-    text-decoration: underline;
+    color: rgb(18, 10, 73);
+    font-family: "Montserrat", "sans-serif";
 }
 
-p{
-    color:darkred;
+h2{
+    color:rgb(164, 134, 35);
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 500;
+    font-size: 16px;
     font-style: italic;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar li a:hover{
+    color:#3e348a;
+}
+
+.navbar li{
+    float: right;
+    font-family: "Montserrat", "sans-serif";
 }
