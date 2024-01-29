@@ -1,10 +1,31 @@
-body{
-    
-
+body{   
     background-image: url("Bilder/Bakgrund.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
+}
+
+img {
     
+}
+
+.box{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+h1{
+    color: rgb(6, 0, 43);
+    text-decoration: underline;
+}
+
+p{
+    color:darkred;
+    font-style: italic;
 }
