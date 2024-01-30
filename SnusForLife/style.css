@@ -7,6 +7,11 @@ header{
     align-items: center;
 }
 
+p{
+    color:rgb(255, 255, 255);
+    
+}
+
 body{
     background-color: #24252A;
     margin: 20px 20%;
@@ -33,6 +38,10 @@ h2{
     font-weight: 500;
     font-size: 16px;
     font-style: italic;
+}
+
+h3{
+    color:rgb(235, 117, 28)
 }
 
 .navbar ul{
