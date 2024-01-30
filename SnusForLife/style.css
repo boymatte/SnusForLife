@@ -25,6 +25,11 @@ body{
     font-size: 20px;
     text-align: center;
     padding: 3%;
+    font-family: "Montserrat", "sans-serif";
+    color: gold;
+}
+.box a{
+    color: gold;
 }
 
 h1{
@@ -64,5 +69,11 @@ h3{
 
 .navbar li{
     float: right;
+    font-family: "Montserrat", "sans-serif";
+}
+
+.titel{
+    color: gold;
+    font-size: 20px;
     font-family: "Montserrat", "sans-serif";
 }
