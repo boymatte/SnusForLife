@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="Bilder/Logo.png" width="200" height="200">
+        <img src="Bilder/Logo.png" alt="logo" width="200" height="200">
         <nav class="navbar">
             <ul>
                 <li><a href="/SnusForLife/Om.html">Om</a></li>
@@ -18,10 +18,34 @@
         </nav>
     </header>
     <main>
-        <div class="box">Knox <img src="Bilder/Knox.webp" width="200" height="200"><br><a href="knox.html">Läs mer</a></div>
-        <div class="box">Lundgren <img src="Bilder/lundgren.webp" width="200" height="200"><br><a href="lundgren.html">Läs mer</a></div>
-        <div class="box">General<img src="Bilder/general.webp" width="200" height="200"><br><a href="general.html">Läs mer</a></div>
-        <div class="box">Grov<img src="Bilder/grov-portionssnus.png" width="200" height="200"><br><a href="grov.html">Läs mer</a></div>
+        <div class="box knox" data-content="Knox snus, en produkt lanserad av Skruf 2006, erbjuder ett snussortiment i olika format och styrkor. Från smakvariationer som Knox Original Portion och Knox White Portion, som kombinerar en tobaksbas med toner av citrus och bergamott, till Karaktär-serien, exempelvis Blue White, med smakprofiler baserade på naturelement, erbjuder snusmärket något för flera smakpreferenser.">
+            <h2>Knox</h2>
+            <a href class="fade-link"><img src="Bilder/Knox.webp" alt="Knox" width="200" height="200"></a>
+            <div class="fade-content" id="fade-content"></div>
+        </div>
+        
+        <div class="box lundgren" data-content="Lundgren är en respekterad aktör på snusmarknaden, känt för sina noggrant utvalda tobakssorter och unika smakprofiler. Med rötter i svensk snustradition har Lundgren utvecklat en rad olika varianter för att tillgodose olika snusares preferenser. Från klassiska portionssnus till innovativa smakkombinationer, erbjuder Lundgren en distinkt upplevelse för snusentusiaster.">
+            <h2>Lundgren</h2>
+            <a href class="fade-link"><img src="Bilder/lundgren.webp" alt="Lundgren" width="200" height="200"></a>
+            <div class="fade-content" id="fade-content"></div>
+        </div>
+        
+        <div class="box general" data-content="General är en av de mest ikoniska och långlivade snusmärkena i Sverige. Med en historia som sträcker sig tillbaka över ett sekel, representerar General den svenska snustraditionens djupa rötter. Känd för sitt klassiska Original Portion-snus, erbjuder General också andra varianter som White Portion och Lös, alla med den karaktäristiska smaken av bergamott och kryddor.">
+            <h2>General</h2>
+            <a href class="fade-link"><img src="Bilder/general.webp" alt="General" width="200" height="200"></a>
+            <div class="fade-content" id="fade-content"></div>
+        </div>
+        
+        <div class="box grov" data-content="Grov är synonymt med robust och traditionellt snus. Tillverkat av finaste tobak och med en tydlig tonvikt på traditionella smaker, är Grov en favorit bland dem som uppskattar det rustika och fylliga i snusupplevelsen. Med olika format och styrkor strävar Grov efter att tillfredsställa olika snusares smakpreferenser.">
+            <h2>Grov</h2>
+            <a href class="fade-link"><img src="Bilder/grov-portionssnus.png" alt="Grov" width="200" height="200"></a>
+            <div class="fade-content" id="fade-content"></div>
+        </div>
+
+        <div class="fade-container" id="fade-container">
+            <div class="fade-content" id="fade-content"></div>
+        </div>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
