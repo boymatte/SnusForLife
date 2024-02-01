@@ -4,6 +4,7 @@
     font-family: "Montserrat", "sans-serif";
     background-color: #24252A;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -18,7 +19,7 @@ body{
     font-family: sans-serif;
 }
 h1{
-    color: rgb(2, 7, 26);
+    color: rgb(116, 124, 158);
     font-weight: 100;
 }
 h2{
@@ -41,7 +42,7 @@ h3{
     padding: 15px;
 }
 .navbar li a:hover{
-    color:#3e348a;
+    color:#bbbeda;
 }
 .navbar li{
     float: right;
